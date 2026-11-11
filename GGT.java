@@ -18,9 +18,9 @@ public class GGT {
             n = b;
         while (n != 0) {
          if (m < n) {
-            int temp = a;
-            a = b;
-            b = temp;
+            int temp = m;
+            m = n;
+            n = temp;
         }
         int r = m -n;
         m = n;
